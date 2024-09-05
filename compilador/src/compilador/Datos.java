@@ -15,6 +15,7 @@ public class Datos extends JFrame {
 	private JPanel contentPane;
 
 	public static void main(String[] args) {
+		System.out.println("Mensaje de prueba");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -118,6 +119,7 @@ public class Datos extends JFrame {
 
         // Si todas las verificaciones pasaron, la palabra es válida
         return true;
+        
     }
 }
 
